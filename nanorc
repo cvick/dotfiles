@@ -7,3 +7,6 @@ set nowrap
 set historylog
 set morespace
 set softwrap
+
+# Syntax Highlighting
+include /usr/share/nano/*
