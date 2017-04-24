@@ -1,2 +1,9 @@
 set linenumbers
-
+set smooth
+set autoindent
+set backup
+set backupdir "~/.nano-backups"
+set nowrap
+set historylog
+set morespace
+set softwrap
