@@ -5,6 +5,8 @@ My Cygwin dotfiles
 
 # Helpful Links  
 [dotfiles.github.io](https://dotfiles.github.io/)  
+[dotphiles](https://github.com/dotphiles/dotphiles)  
+[Awesome dotfiles](https://github.com/webpro/awesome-dotfiles)  
 
 # Needed Cygwin packages  
 Cygwin default install  
