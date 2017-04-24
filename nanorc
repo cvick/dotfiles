@@ -9,4 +9,4 @@ set morespace
 set softwrap
 
 # Syntax Highlighting
-include /usr/share/nano/*
+include ~/dotfiles/nano_syntax/*
