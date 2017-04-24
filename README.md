@@ -11,6 +11,7 @@ My Cygwin dotfiles
 # Needed Cygwin packages  
 Cygwin default install  
 [apt-cyg](https://github.com/transcode-open/apt-cyg)  
+[BIND Utils](https://www.isc.org/downloads/)  
 lynx  
 curl  
 wget  
