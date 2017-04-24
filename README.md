@@ -1,7 +1,10 @@
-# dotfiles
+# Dotfiles
 My Cygwin dotfiles  
 
 [Following this guide](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/)
+
+# Helpful Links  
+[dotfiles.github.io](https://dotfiles.github.io/)  
 
 # Needed Cygwin packages  
 Cygwin default install  
