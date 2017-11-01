@@ -22,9 +22,3 @@ alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 
 #Show mount in columns
 alias mount="mount | column -t"
-
-#Easy CD to Desktop
-alias desktop="cd /cygdrive/c/Users/cvick/Desktop"
-
-#Easy CD to Documents
-alias documents="cd /cygdrive/z"
