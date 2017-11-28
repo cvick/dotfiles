@@ -22,3 +22,7 @@ alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 
 #Show mount in columns
 alias mount="mount | column -t"
+
+#Do ls after cd
+alias cdd='cd "$1" && ls'
+alias ccd='cd "$1" && ls'
