@@ -18,7 +18,7 @@ lynx
 curl  
 wget  
 openssh  
-dig  
+dog  
 nano  
 rsync  
 
