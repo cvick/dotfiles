@@ -26,3 +26,9 @@ alias mount="mount | column -t"
 #Do ls after cd
 alias cdd='cd "$1" && ls'
 alias ccd='cd "$1" && ls'
+
+#rsync gcode scripts
+alias gcodescripts='rsync -avz pi@octopi-MS.local:/usr/local/bin/gcode_scripts ~/octoprint_scripts/'
+
+#Easier cd to Desktop
+alias desktop="cd /cygdrive/c/Users/cvick/Desktop"
