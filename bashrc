@@ -32,3 +32,9 @@ alias gcodescripts='rsync -avz pi@octopi-MS.local:/usr/local/bin/gcode_scripts ~
 
 #Easier cd to Desktop
 alias desktop="cd /cygdrive/c/Users/cvick/Desktop"
+
+#Easier cd to Git folder at home
+alias githome="cd /cygdrive/d/Documents/Git"
+
+#Easier cd to Git folder at work
+alias gitwork="/cygdrive/z/Git"
