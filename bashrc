@@ -37,4 +37,4 @@ alias desktop="cd /cygdrive/c/Users/cvick/Desktop"
 alias githome="cd /cygdrive/d/Documents/Git"
 
 #Easier cd to Git folder at work
-alias gitwork="/cygdrive/z/Git"
+alias gitwork="cd /cygdrive/z/Git"
