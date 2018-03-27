@@ -41,7 +41,7 @@ alias downloadshome="cd /cygdrive/d/Downloads"
 
 #cd alises for work
 
-alias desktopwork="cd /cygdrive/c/Users/cvick/Desktop
+alias desktopwork="cd /cygdrive/c/Users/cvick/Desktop"
 
 alias gitwork="/cygdrive/z/Git"
 
