@@ -30,11 +30,19 @@ alias ccd='cd "$1" && ls'
 #rsync gcode scripts
 alias gcodescripts='rsync -avz pi@octopi-MS.local:/usr/local/bin/gcode_scripts ~/octoprint_scripts/'
 
-#Easier cd to Desktop
-alias desktop="cd /cygdrive/c/Users/cvick/Desktop"
+#cd aliases for home
 
-#Easier cd to Git folder at home
+alias desktophome="cd /cygdrive/d/Desktop"
+
 alias githome="cd /cygdrive/d/Documents/Git"
 
-#Easier cd to Git folder at work
-alias gitwork="cd /cygdrive/z/Git"
+alias downloadshome="cd /cygdrive/d/Downloads"
+
+
+#cd alises for work
+
+alias desktopwork="cd /cygdrive/c/Users/cvick/Desktop
+
+alias gitwork="/cygdrive/z/Git"
+
+alias downloadswork="cd /cygdrive/z/Downloads
