@@ -45,4 +45,4 @@ alias desktopwork="cd /cygdrive/c/Users/cvick/Desktop"
 
 alias gitwork="/cygdrive/z/Git"
 
-alias downloadswork="cd /cygdrive/z/Downloads
+alias downloadswork="cd /cygdrive/z/Downloads"
