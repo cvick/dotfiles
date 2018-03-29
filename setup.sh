@@ -6,8 +6,8 @@
 
 ########## Variables
 
-dir=~/dotfiles                    # dotfiles directory
-olddir=~/dotfiles_old             # old dotfiles backup directory
+dir=~/dotfiles                                                            # dotfiles directory
+olddir=~/dotfiles_old                                                     # old dotfiles backup directory
 files="bashrc nanorc minttyrc dir_colors setup.sh scripts nano_syntax"    # list of files/folders to symlink in homedir
 
 ##########
