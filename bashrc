@@ -1,6 +1,8 @@
 # If not running interactively, don't do anything
 [[ "$-" != *i* ]] && return
 
+force_color_prompt=yes
+
 # Don't put duplicate lines in the history.
 export HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}ignoredups
 
