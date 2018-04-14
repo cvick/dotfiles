@@ -26,3 +26,5 @@ alias mount="mount | column -t"
 #Do ls after cd
 alias cdd='cd "$1" && ls'
 alias ccd='cd "$1" && ls'
+
+eval $(thefuck --alias)
