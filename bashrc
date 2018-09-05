@@ -84,3 +84,6 @@ alias desktopwork="cd /cygdrive/c/Users/cvick/Desktop"
 alias gitwork="cd /cygdrive/z/Git"
 
 alias downloadswork="cd /cygdrive/z/Downloads"
+
+#Easier way of finding packages version in apt
+alias version="apt-cache policy"
