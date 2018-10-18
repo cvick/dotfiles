@@ -52,7 +52,11 @@ alias l='ls -CF'
 alias c="clear"
 
 # Weather
-alias weather="bash ~/.scripts/weather.sh 92630"
+# alias weather="bash ~/.scripts/weather.sh 92630"
+alias weather="curl wttr.in"
+
+# Moon Phase
+alias moon="curl wttr.in/Moon"
 
 # Current IP
 alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
