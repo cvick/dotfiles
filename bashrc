@@ -53,7 +53,7 @@ alias c="clear"
 
 # Weather
 # alias weather="bash ~/.scripts/weather.sh 92630"
-alias weather="curl wttr.in"
+alias weather="curl wttr.in/Lake_Forest"
 
 # Moon Phase
 alias moon="curl wttr.in/Moon"
