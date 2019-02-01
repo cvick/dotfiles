@@ -91,3 +91,6 @@ alias downloadswork="cd /cygdrive/z/Downloads"
 
 #Easier way of finding packages version in apt
 alias version="apt-cache policy"
+
+#Upgrade pip
+alias upgradepip="python -m pip install --upgrade pip"
