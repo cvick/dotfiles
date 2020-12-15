@@ -26,6 +26,9 @@ export HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}ignoredups
 # append to the history file, don't overwrite it
 shopt -s histappend
 
+# add timestamps to history
+export HISTTIMEFORMAT="%F %T "
+
 # Default to human readable figures
 alias df='df -h'
 alias du='du -h'
