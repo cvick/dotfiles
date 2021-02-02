@@ -91,3 +91,23 @@ alias downloadswork="cd /cygdrive/z/Downloads"
 
 #Easier way of finding packages version in apt
 alias version="apt-cache policy"
+
+# apt-fast alias to apt
+alias apt="apt-fast"
+alias apt-get="apt-fast"
+
+#Random password generator
+alias pass="cat /dev/urandom | base64 --wrap ${1:-"12"} | head -n 1"
+alias passsym="tr -dc '[:print:]' < /dev/urandom | head -c 20"
+
+# Show motd because it apparently doesn't do it by itself anymore
+run-parts /etc/update-motd.d
+
+eval "$(thefuck --alias)"
+
+alias sshnc="ssh administrator@10.0.0.90"
+alias sshrp="ssh administrator@10.0.0.85"
+alias sshholo="ssh root@10.0.0.80"
+
+# Blank screen when it doesn't obey
+alias blank="xset dpms force off"
