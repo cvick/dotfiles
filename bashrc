@@ -26,6 +26,9 @@ export HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}ignoredups
 # append to the history file, don't overwrite it
 shopt -s histappend
 
+# add timestamps to history
+export HISTTIMEFORMAT="%F %T "
+
 # Default to human readable figures
 alias df='df -h'
 alias du='du -h'
@@ -53,7 +56,7 @@ alias c="clear"
 
 # Weather
 # alias weather="bash ~/.scripts/weather.sh 92630"
-alias weather="curl wttr.in"
+alias weather="curl wttr.in/Lake_Forest"
 
 # Moon Phase
 alias moon="curl wttr.in/Moon"
@@ -111,3 +114,6 @@ alias sshholo="ssh root@10.0.0.80"
 
 # Blank screen when it doesn't obey
 alias blank="xset dpms force off"
+=======
+#Upgrade pip
+alias upgradepip="python -m pip install --upgrade pip"
