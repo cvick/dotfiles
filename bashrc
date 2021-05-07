@@ -114,6 +114,6 @@ alias sshholo="ssh root@10.0.0.80"
 
 # Blank screen when it doesn't obey
 alias blank="xset dpms force off"
-=======
+
 #Upgrade pip
 alias upgradepip="python -m pip install --upgrade pip"
